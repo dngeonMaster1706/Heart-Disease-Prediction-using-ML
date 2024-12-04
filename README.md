@@ -24,4 +24,13 @@ To get started, clone the repository and install the necessary Python libraries:
 ```bash  
 git clone <repository-url>  
 cd <project-directory>  
-pip install -r requirements.txt  
+pip install -r requirements.txt
+
+.
+├── data/               # Dataset files
+├── notebooks/          # Jupyter notebooks for experiments
+├── src/                # Source code for model implementation
+├── results/            # Saved models and performance metrics
+├── README.md           # Project documentation
+└── requirements.txt    # List of dependencies
+
